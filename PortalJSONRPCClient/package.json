@@ -1,0 +1,13 @@
+{
+  "name": "vco-nodejs-demo",
+  "version": "1.0.0",
+  "description": "Sample VCO Node.js JSON-RPC API Client, based on Axios. Supports JSON-RPC calls to the VCO Portal and Live Mode APIs.",
+  "scripts": {
+    "demo:liveMode": "node liveModeDemo.js",
+    "demo:linkStats": "node linkStatsDemo.js"
+  },
+  "dependencies": {
+    "axios": "0.18.0"
+  },
+  "author": "VCO API team"
+}
